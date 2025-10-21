@@ -21,3 +21,5 @@ greater_check <- x>y
 equal_check <- x==y
 
 
+greater_check
+equal_check
