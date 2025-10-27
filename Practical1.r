@@ -53,4 +53,3 @@ str(airquality)
 p <- 100
 q <- 50
 greater_checkin <- p>q
-greater_checkin
