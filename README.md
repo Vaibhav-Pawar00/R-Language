@@ -1,7 +1,11 @@
-﻿# 🌸 R Language Practicals 
+﻿# 🌸 R Programming Language Practicals 
+All the practical files contains their respective exercise questions within the same file. No separate files have been created for the exercise questions.
 
-All the Practical files contains the exercise questions in the practical file itself 
-No other seperate files are made for the exercise questions
+## 👨‍💻 Author
+**Vaibhav Pawar**
+T.Y - B.Tech CSE (AI & DS)
+
+---
 
 ## 📘 Practical Index (Contents)
 - Practical 1 : Introduction to R and RStudio
@@ -25,16 +29,5 @@ No other seperate files are made for the exercise questions
 ## ⚙️ Requirements
 - R version >= 4.5.2  
 - Libraries: `ggplot2`, `dplyr`, `factoextra`, `caret`, `rpart`, `carData`, `broom`, `pROC`, `rpart.plot`, `GGally`, `ggcorrplot`, `modeest`
-
-## 🌸 Practical Files
 ```bash
-RScript Practical1.r
-RScript Practical2.r
-RScript Practical3.r
-RScript Practical4.r
-RScript Practical5.r
-RScript Practical6.r
-RScript Practical7.r
-RScript Practical8.r
-RScript Practical9.r
-RScript Practical10.r
+install.packages(c("ggplot2", "dplyr", "factoextra", "caret", "rpart", "carData", "broom", "pROC", "rpart.plot", "GGally", "ggcorrplot", "modeest"))
