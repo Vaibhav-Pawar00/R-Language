@@ -1,10 +1,5 @@
 # 🛍️ Customer Segmentation and Behavioral Clustering using K-Means in R
 
-![R](https://img.shields.io/badge/R-Programming-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Project%20Type-Academic%20Mini%20Project-orange)
-![Dataset](https://img.shields.io/badge/Dataset-Kaggle-red)
-
 ---
 
 ## 📘 Overview
@@ -98,15 +93,15 @@ The entire workflow — from data preprocessing to cluster visualization — is 
 ## 📊 Visualizations
 
 **1️⃣ Elbow Method — Optimal K Determination**
-![Elbow Method](https://github.com/Vaibhav-Pawar00/R-Language/Project/output/plots/elbow.png)
+![Elbow Method](output/plots/elbow.png)
 
 **2️⃣ Clustering Visualization (PCA Scatterplot)**
-![Cluster Visualization](https://github.com/Vaibhav-Pawar00/R-Language/Project/output/plots/kmeans_clusters_pca.png)
+![Cluster Visualization](output/plots/kmeans_clusters_pca.png)
 
 **3️⃣ Income vs Spending Distribution**
-![Distribution](https://github.com/Vaibhav-Pawar00/R-Language/Project/output/plots/income_vs_spend.png)
+![Distribution](output/plots/income_vs_spend.png)
 
-*(Replace the above image URLs with your actual plot paths once generated — e.g. `output/plots/elbow_plot.png`)*
+
 
 ---
 
