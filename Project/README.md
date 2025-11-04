@@ -23,7 +23,7 @@ The entire workflow — from data preprocessing to cluster visualization — is 
 
 ## 📂 Dataset
 
-**Source:** [Mall Customers Dataset – Kaggle](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python-and-r)  
+**Source:** [Mall Customers Dataset (Kaggle)](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
 **File:** `Mall_Customers.csv`  
 
 | Column Name       | Description                     |
@@ -131,7 +131,7 @@ source("05_classification.R") # optional
 ## 🧱 Repository Structure
 ```bash
 Project/
-├── data/
+├── code/
 │   └── 01_load_and_clean.r
 │   └── 02_eda_visuals.r
 │   └── 03_optimal_clusters.r
