@@ -92,14 +92,12 @@ The entire workflow — from data preprocessing to cluster visualization — is 
 
 ## 📊 Visualizations
 
-**1️⃣ Elbow Method — Optimal K Determination**
-![Elbow Method](output/plots/elbow.png)
+| Visualization | Description |
+|----------------|--------------|
+| ![Elbow Method](output/plots/elbow.png) | Finding the optimal number of clusters |
+| ![K-Means Clusters](output/plots/kmeans_clusters_pca.png) | Customer segments visualized using PCA |
+| ![Income vs Spending](output/plots/income_vs_spend.png) | Spending patterns by annual income |
 
-**2️⃣ Clustering Visualization (PCA Scatterplot)**
-![Cluster Visualization](output/plots/kmeans_clusters_pca.png)
-
-**3️⃣ Income vs Spending Distribution**
-![Distribution](output/plots/income_vs_spend.png)
 
 
 
@@ -119,3 +117,32 @@ The entire workflow — from data preprocessing to cluster visualization — is 
 ### Step 1: Install Dependencies
 ```r
 install.packages(c("dplyr", "ggplot2", "factoextra", "cluster", "NbClust", "caret", "rpart", "pROC", "scales"))
+```
+
+### Step 2 : Run the Scripts in Order
+```r
+source("01_load_and_clean.R")
+source("02_eda_visuals.R")
+source("03_optimal_clusters.R")
+source("04_kmeans_clustering.R")
+source("05_classification.R") # optional
+```
+
+## 🧱 Repository Structure
+```bash
+Project/
+├── data/
+│   └── Mall_Customers.csv
+├── output/
+│   ├── mall_customers_clean.csv
+│   └── plots/
+│       ├── elbow.png
+│       ├── kmeans_clusters_pca.png
+│       └── income_vs_spend.png
+├── 01_load_and_clean.R
+├── 02_eda_visuals.R
+├── 03_optimal_clusters.R
+├── 04_kmeans_clustering.R
+├── 05_optional_classification.R
+└── README.md
+```
