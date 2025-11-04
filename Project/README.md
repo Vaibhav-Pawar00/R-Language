@@ -98,13 +98,13 @@ The entire workflow — from data preprocessing to cluster visualization — is 
 ## 📊 Visualizations
 
 **1️⃣ Elbow Method — Optimal K Determination**
-![Elbow Method](https://github.com/Vaibhav-Pawar00/R-Language/assets/elbow_method.png)
+![Elbow Method](https://github.com/Vaibhav-Pawar00/R-Language/Project/output/plots/elbow.png)
 
 **2️⃣ Clustering Visualization (PCA Scatterplot)**
-![Cluster Visualization](https://github.com/Vaibhav-Pawar00/R-Language/assets/pca_clusters.png)
+![Cluster Visualization](https://github.com/Vaibhav-Pawar00/R-Language/Project/output/plots/kmeans_clusters_pca.png)
 
 **3️⃣ Income vs Spending Distribution**
-![Distribution](https://github.com/Vaibhav-Pawar00/R-Language/assets/income_spending_distribution.png)
+![Distribution](https://github.com/Vaibhav-Pawar00/R-Language/Project/output/plots/income_vs_spend.png)
 
 *(Replace the above image URLs with your actual plot paths once generated — e.g. `output/plots/elbow_plot.png`)*
 
@@ -123,4 +123,4 @@ The entire workflow — from data preprocessing to cluster visualization — is 
 
 ### Step 1: Install Dependencies
 ```r
-install.packages(c("dplyr", "ggplot2", "factoextra", "cluster", "NbClust", "caret", "rpart", "pROC"))
+install.packages(c("dplyr", "ggplot2", "factoextra", "cluster", "NbClust", "caret", "rpart", "pROC", "scales"))
