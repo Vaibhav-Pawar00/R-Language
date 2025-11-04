@@ -132,17 +132,23 @@ source("05_classification.R") # optional
 ```bash
 Project/
 ├── data/
+│   └── 01_load_and_clean.r
+│   └── 02_eda_visuals.r
+│   └── 03_optimal_clusters.r
+│   └── 04_kmeans_clustering.r
+│   └── 05_classification.R
+├── data/
 │   └── Mall_Customers.csv
 ├── output/
 │   ├── mall_customers_clean.csv
+│   ├── mall_customers_with_clusters.csv
+│   ├── tables/
+│   |    ├── cluster_summary.csv
+│   |    ├── sample_customers_per_cluster.csv
+│   |    └── summary_stats.csv
 │   └── plots/
 │       ├── elbow.png
 │       ├── kmeans_clusters_pca.png
 │       └── income_vs_spend.png
-├── 01_load_and_clean.R
-├── 02_eda_visuals.R
-├── 03_optimal_clusters.R
-├── 04_kmeans_clustering.R
-├── 05_optional_classification.R
 └── README.md
 ```
